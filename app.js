@@ -225,6 +225,8 @@ const getOneMovie=(req,res)=>{
 
 
 
+let val=0;
+
 const getAllMovies=(req,res)=>{
     res.status(200).json({ // content type of json is application/json
         status:"success",
